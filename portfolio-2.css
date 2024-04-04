@@ -563,7 +563,16 @@ body {
   border: 1px solid lightgrey;
   border-radius: 6px;
 }
-
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-text {
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
 @media only screen and (max-width: 1020px) {
   .hero-img img {
     width: 450px;
@@ -665,14 +674,18 @@ body {
     font-size: 0.8rem;
   }
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin: 10px 0;
   }
   .hero-content h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #profile-pic {
     width: 250px;
+    margin-top: -10px;
+  }
+  .aboutme {
+    gap: 0;
   }
   .aboutme-text {
     padding: 15px;
