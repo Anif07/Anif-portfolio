@@ -54,9 +54,17 @@ body {
   opacity: 0;
   animation: slidetop 0.5s ease forwards;
   animation-delay: calc(0.2s * var(--i));
+  transition: all 0.2s ease;
 }
-.navbar a:hover {
+.navbar ul a:hover {
   color: #37b5b6;
+  /* font-size: 23px; */
+}
+.navbar ul li {
+  transition: all 0.2s ease;
+}
+.navbar ul li:hover {
+  transform: translateY(-5px);
 }
 
 .hero {
