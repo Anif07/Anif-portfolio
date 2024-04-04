@@ -682,7 +682,7 @@ body {
     padding: 10px 10%;
   }
   .skill-box {
-    width: 180px;
+    width: 160px;
     height: 100px;
   }
   .skill-box i {
@@ -693,5 +693,8 @@ body {
   }
   .project-1-left img {
     width: 350px;
+  }
+  .project-1-right {
+    width: auto;
   }
 }
