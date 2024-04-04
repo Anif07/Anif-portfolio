@@ -32,6 +32,9 @@ body {
   opacity: 0;
   animation: slideright 1s ease forwards;
 }
+.nav-menu {
+  display: none;
+}
 /* .logo span {
   color: #f2f597;
 } */
@@ -558,4 +561,137 @@ body {
   margin-top: 10px;
   border: 1px solid lightgrey;
   border-radius: 6px;
+}
+
+@media only screen and (max-width: 1020px) {
+  .hero-img img {
+    width: 450px;
+    margin-top: -50px;
+  }
+  #profile-pic {
+    width: 350px;
+    height: auto;
+  }
+  .project-container {
+    padding: 0 10%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .hero-img img {
+    width: 400px;
+    margin-top: -50px;
+  }
+  .project-container {
+    padding: 0 7%;
+  }
+  .hero {
+    padding: 40px 10%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .navbar {
+    padding: 15px 5%;
+  }
+  .aboutme {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 0 5%;
+  }
+  .aboutme-img {
+    text-align: center;
+  }
+  .project-1 {
+    flex-direction: column;
+  }
+  .studio-img {
+    order: 1;
+  }
+  .studio-text {
+    order: 2;
+  }
+}
+@media screen and (max-width: 690px) {
+  .navbar {
+    padding: 15px 2%;
+  }
+  .navbar > a {
+    font-size: 2.5rem;
+  }
+  .navbar ul a {
+    font-size: 17px;
+  }
+  .hero-img img {
+    display: none;
+  }
+  .aboutme {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 0 2%;
+  }
+  .aboutme-img {
+    text-align: center;
+  }
+  #profile-pic {
+    width: 300px;
+  }
+  .hero {
+    padding: 40px 10%;
+  }
+  .project-container {
+    padding: 0 5%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .navbar ul {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+    font-size: 1.7rem;
+    margin-right: 30px;
+  }
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  #profile-pic {
+    width: 250px;
+  }
+  .aboutme-text {
+    padding: 15px;
+  }
+  .aboutme-text p {
+    font-size: 15px;
+  }
+  .aboutme-text h1 {
+    font-size: 50px;
+  }
+  .aboutme-text h4 {
+    font-size: 25px;
+  }
+  .hero {
+    padding: 10px 10%;
+  }
+  .skill-box {
+    width: 180px;
+    height: 100px;
+  }
+  .skill-box i {
+    font-size: 80px;
+  }
+  .skill-text {
+    font-size: 1rem;
+  }
+  .project-1-left img {
+    width: 350px;
+  }
 }
