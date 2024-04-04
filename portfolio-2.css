@@ -647,6 +647,9 @@ body {
   .project-container {
     padding: 0 5%;
   }
+  .contact-div2 {
+    grid-template-columns: 1fr;
+  }
 }
 @media only screen and (max-width: 576px) {
   .navbar ul {
@@ -662,6 +665,9 @@ body {
   }
   .hero-content h1 {
     font-size: 2rem;
+  }
+  .hero-content h3 {
+    font-size: 1rem;
   }
   #profile-pic {
     width: 250px;
@@ -692,9 +698,27 @@ body {
     font-size: 1rem;
   }
   .project-1-left img {
-    width: 350px;
+    width: 330px;
+  }
+  .project-1 {
+    padding: 0 10px;
   }
   .project-1-right {
     width: auto;
+  }
+  .project-1-right p {
+    font-size: 1.1rem;
+  }
+  .main-contact {
+    height: auto;
+  }
+  .contact {
+    height: auto;
+  }
+  .contact-div2 {
+    gap: 30px;
+  }
+  .address p {
+    margin-left: 30px;
   }
 }
