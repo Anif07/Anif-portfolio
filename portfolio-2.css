@@ -399,9 +399,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: all 0.3s ease;
 }
 .skill-box:hover {
-  transform: scale(50px);
+  transform: scale(1.08);
   border: 1px solid black;
   box-shadow: 0 0 20px black;
 }
@@ -435,4 +436,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 80%;
+}
+.skill-img i {
+  font-size: 140px;
 }
