@@ -299,7 +299,7 @@ body {
 }
 
 /* skills */
-.skills {
+/* .skills {
   display: flex;
   flex-wrap: wrap;
 }
@@ -375,7 +375,7 @@ body {
 }
 .progress-line .python span {
   width: 70%;
-}
+} */
 
 /* skills */
 .skillscontainer {
@@ -403,10 +403,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 30px;
+  padding: 0 15%;
 }
 .skill-box {
-  height: 260px;
-  width: 360px;
+  height: 240px;
+  width: 300px;
   background-color: #e3e3e3;
   margin-top: 30px;
   color: black;
@@ -573,6 +574,16 @@ body {
   padding-bottom: 20px;
   font-size: 1rem;
 }
+@media only screen and (max-width: 1373px) {
+  .skills-lower {
+    padding: 0 10%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .skills-lower {
+    padding: 0 5%;
+  }
+}
 @media only screen and (max-width: 1020px) {
   .hero-img img {
     width: 450px;
@@ -660,6 +671,9 @@ body {
   .contact-div2 {
     grid-template-columns: 1fr;
   }
+  .skills-lower {
+    padding: 0 2%;
+  }
 }
 @media only screen and (max-width: 576px) {
   .navbar ul {
@@ -702,8 +716,11 @@ body {
   .hero {
     padding: 10px 10%;
   }
+  .skills-upper h1 {
+    font-size: 55px;
+  }
   .skill-box {
-    width: 160px;
+    width: 155px;
     height: 100px;
   }
   .skill-box i {
@@ -738,5 +755,11 @@ body {
   }
   .email p {
     margin-left: 28px;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .skill-box {
+    width: 138px;
+    height: 100px;
   }
 }
