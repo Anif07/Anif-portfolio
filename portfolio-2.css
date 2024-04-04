@@ -235,6 +235,7 @@ body {
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
+  text-align: justify;
 }
 .hero-btn:hover {
   box-shadow: 0 0 20px black, 0 0 20px #37b5b6;
@@ -667,7 +668,7 @@ body {
     font-size: 2rem;
   }
   .hero-content h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   #profile-pic {
     width: 250px;
@@ -707,7 +708,7 @@ body {
     width: auto;
   }
   .project-1-right p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .main-contact {
     height: auto;
@@ -720,5 +721,8 @@ body {
   }
   .address p {
     margin-left: 30px;
+  }
+  .email p {
+    margin-left: 28px;
   }
 }
